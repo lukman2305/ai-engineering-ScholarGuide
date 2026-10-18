@@ -1,6 +1,5 @@
 # ScholarGuide
-
-> An AI information assistant helping Malaysian undergraduate students understand and compare selected scholarships and convertible education loans (pinjaman boleh ubah) using official documents.
+An AI information assistant helping Malaysian undergraduate students understand and compare selected scholarships and convertible education loans (pinjaman boleh ubah) using official documents.
 
 **Course:** SAIA 3113 - AI Engineering  
 **Repository name:** `ai-engineering-Scholarguide`  
