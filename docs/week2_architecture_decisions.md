@@ -1,5 +1,9 @@
 # ScholarGuide Week 2 Architecture Decisions
 
+## C1 Simplest Architecture
+
+![ScholarGuide simplest architecture](week2_architecture_simple.png)
+
 ## C2 Architecture Needs from Requirements
 
 | Requirement ID | What the Requirement Needs | Architecture Response |
@@ -11,6 +15,10 @@
 | NFR1/NFR3 | Timely responses and controlled errors | A1 coordinates one bounded response path, a timeout, and a controlled fallback message. |
 | NFR4 | Source replacement without unrelated code edits | K1 is maintained separately from application logic; approved updates refresh the prepared evidence. |
 | O3 | Evidence for the selected Part B criteria | E1 offline evaluation inspects answers, citations, source years, language quality, and timing. |
+
+## C3 V1 Conceptual Architecture
+
+![ScholarGuide V1 conceptual architecture](week2_architecture_v1.png)
 
 ## C4 Architecture Decision Records
 
@@ -30,8 +38,4 @@
 | O2/O3 | FR5; RAI5 | Language parity | A1, M1, E1 | T01 paired-language scores: at least 90% each; gap no more than 10 percentage points. |
 | O3 | NFR1 | Complete response latency | A1 and E1 timing point | Timing records for 100 requests: p90 no more than 8 seconds. |
 | O2/O3 | FR5 | Response clarity | M1, OUT, E1 | Ten scored answers: at least 8/10 score 4/5 or above. |
-
-
-## Final Review and Reflection
-
 
